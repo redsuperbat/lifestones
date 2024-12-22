@@ -13,6 +13,7 @@ RUN pnpm build
 WORKDIR server
 
 ENV LOG_FORMAT=google
+ENV PORT=3000
 
 CMD ["pnpm", "start"]
 
