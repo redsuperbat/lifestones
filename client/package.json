@@ -1,0 +1,20 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build --outDir=../server/static",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.15.1",
+    "solid-js": "1.9.3",
+    "typescript": "5.7.2"
+  },
+  "devDependencies": {
+    "vite": "5.4.1",
+    "vite-plugin-solid": "2.10.2"
+  }
+}

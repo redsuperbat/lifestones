@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "node --env-file=.env --no-warnings --watch --experimental-transform-types src/index.ts",
+    "start": "node --no-warnings --experimental-transform-types src/index.ts"
+  },
+  "author": "Max Netterberg",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "hono": "^4.6.12",
+    "swiss-log": "*"
+  }
+}

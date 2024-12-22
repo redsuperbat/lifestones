@@ -1,0 +1,11 @@
+{
+  "name": "@wineswewant/landing",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build"
+  },
+  "author": "Max Netterberg",
+  "license": "MIT"
+}
