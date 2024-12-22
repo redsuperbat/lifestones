@@ -4,7 +4,7 @@
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "node --env-file=.env --no-warnings --watch --experimental-transform-types src/index.ts",
+    "dev": "node --env-file=.env.local --no-warnings --watch --experimental-transform-types src/index.ts",
     "start": "node --no-warnings --experimental-transform-types src/index.ts"
   },
   "author": "Max Netterberg",
